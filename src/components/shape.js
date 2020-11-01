@@ -2,13 +2,13 @@ import React from "react";
 class Shape extends React.Component {
   constructor(props) {
     super(props);
-    this.color = "red";
+    this.color = "blue";
   }
   drawShape() {
-    console.log("drew my shape");
+    console.log("drawing shape");
   }
   calculateArea() {
-    console.log("calculate area in shape");
+    console.log("cal in shape");
   }
 }
 // export class using module.exports
